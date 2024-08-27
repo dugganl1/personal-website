@@ -28,11 +28,11 @@ main {
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .square {
-  flex: 0 0 160px;
+  flex: 0 0 calc(33.33% - 20px);
   height: 160px;
   background-color: var(--colors-gray2);
 }
